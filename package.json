@@ -3,5 +3,12 @@
   "packageManager": "yarn@4.4.1",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "sucrase": "^3.35.0"
+  },
+  "scripts": {
+    "dev": "nodemon --watch src --exec sucrase-node src/server.js"
   }
 }

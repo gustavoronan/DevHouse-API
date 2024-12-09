@@ -1,5 +1,5 @@
-const express = require('express') //importando express
-const routes = require('./routes') //passando o arquivo routes 
+import express from "express" //importando express, usando nodemon e sucrase
+import routes from './routes' //passando o arquivo routes 
 
 
 class App { //criando a classe
@@ -24,4 +24,4 @@ class App { //criando a classe
 }
 
 
-module.exports = new App().server //enviando o servidor, middlewares e routes contidos em app
+    export default new App().server //enviando o servidor, middlewares e routes contidos em app
