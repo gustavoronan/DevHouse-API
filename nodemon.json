@@ -1,5 +1,8 @@
 {
     "execMap": {
-        "js": "node -r sucrase/register"
+        "js": "node -r sucrase/register",
+        "__comentario": "Configura o Node para usar Sucrase, permitindo a execução de arquivos .js com sintaxe moderna (como ESModules e import/export)."
     }
+    
 }
+
